@@ -20,10 +20,9 @@
   margin-top: 120px;
   background: transparent;
   color: white; }
-
-.jumbotron p {
-  padding-right: 40%;
-  font-size: 18px; }
+  .jumbotron p {
+    padding-right: 40%;
+    font-size: 18px; }
 
 .bg-head .list-inline {
   margin-top: 20px; }
@@ -48,15 +47,16 @@
   background: #F6F6F6;
   margin-top: 50px;
   margin-bottom: 50px; }
+  .recreate .titulo {
+    margin-bottom: 40px; }
 
 .footer {
   margin-top: 30px;
   margin-bottom: 30px; }
-
-.footer .icon-redes {
-  color: #58B7FA;
-  margin-top: 20px;
-  text-align: center; }
+  .footer .icon-redes {
+    color: #58B7FA;
+    margin-top: 20px;
+    text-align: center; }
 
 .footer li {
   border: 1px #58B7FA solid;
