@@ -1,3 +1,6 @@
+$background:transparent;
+$border-radius:20px;
+
 .bg-head{
 	background:url("../images/1920x665-1.jpg");
 	background-repeat: no-repeat;
@@ -18,7 +21,7 @@
 }   
 .jumbotron{
 	margin-top:120px;
-	background:transparent;
+	background:$background;
 	color:white;
 	p{
 		padding-right:40%;
@@ -32,11 +35,11 @@
 }
 	
 .btn-radius{
-	border-radius:20px;
+	border-radius:$border-radius;
 }
 .btn-radius-bg{
-	background:transparent;
-	border-radius:20px;
+	background:$background;
+	border-radius:$border-radius;
 	color:#3CB1F7;
 }
 .optimize{
@@ -51,6 +54,7 @@
 	background:#F6F6F6;
 	margin-top:50px;
 	margin-bottom:50px;
+	
 	.titulo{
 		margin-bottom:40px;
 	}
